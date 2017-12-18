@@ -1,0 +1,22 @@
+program project1;
+uses crt;
+type
+  userData = record
+    fullName,password:string;
+  end;
+var
+  user:userData;
+  retypePwd:string;
+begin
+  writeln;
+  writeln('+------------------------------------+');
+  writeln('|                                    |');
+  writeln('|   APLIKASI PROPERTI EMERALD CITY   |');
+  writeln('|             User Sign Up           |');
+  writeln('|                                    |');
+  writeln('+------------------------------------+');
+  writeln;
+  write('Full Name       : ');readln(user.fullName);
+  write('Password        : ');readln(user.password);
+  write('Retype password : ');readln(retypePwd);
+end.

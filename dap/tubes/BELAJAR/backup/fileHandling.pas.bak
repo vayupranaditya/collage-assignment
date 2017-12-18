@@ -1,0 +1,9 @@
+program FileHandling;
+uses crt;
+var
+	arrfile: file of array[1..4] of string;
+	i:integer;
+	j:string;
+begin
+	assign(f,'data.dat');
+        rewrite(f);

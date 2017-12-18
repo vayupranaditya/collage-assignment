@@ -1,0 +1,2 @@
+harga=lokasi-bencana-kriminalitas
+bayar=harga-DP-angsuran

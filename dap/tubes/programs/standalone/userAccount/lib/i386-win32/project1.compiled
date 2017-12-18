@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\FPCnew\fpc\2.6.4\bin\i386-win32\fpc.exe" Date="1162570748"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -vewnhi &quot;-FiD:\ME!\VAYU\SEKOLAH\University\Telkom\1_Semester 1\DAP\TUBES\programs\standalone\userAccount\lib\i386-win32&quot; &quot;-FuD:\ME!\VAYU\SEKOLAH\University\Telkom\1_Semester 1\DAP\TUBES\programs\standalone\userAccount\&quot; &quot;-FUD:\ME!\VAYU\SEKOLAH\University\Telkom\1_Semester 1\DAP\TUBES\programs\standalone\userAccount\lib\i386-win32\&quot; -l project1.lpr"/>
+</CONFIG>
