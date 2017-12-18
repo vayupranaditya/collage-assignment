@@ -1,0 +1,54 @@
+program soalArray;
+uses crt;
+const
+  nMax=100;
+type
+  tabArray = array[1..nMax] of string;
+var
+  dataNama: tabArray;
+  n,i:integer;
+procedure checkPalindrom(kata:string);
+{IS. terdefinisi suatu string kata
+ FS. menampilkan string 'palindrom' apabila kata adalah palindrom, atau bukan palindrom jika sebaliknya ke layar. Contoh: palindrom => KATAK, ADA; bukan palindrom => MAMA}
+var
+  n,i:integer;
+  palindrom:boolean;
+begin
+  n:=length(kata);
+  palindrom:=True;
+  i:=1;
+  while ((palindrom) and (i <= (n div 2))) do begin
+    if (kata[i] <> kata[n-i+1]) then begin
+      palindrom:=False;
+      end;
+    i:=i+1;
+    end;
+  if (palindrom) then begin
+    writeln('palindrom');
+    end else begin
+      writeln('bukan palindrom');
+    end;
+end;
+procedure isiArray(var tabel:tabArray; var m:integer);
+{IS. -
+ FS. tabel bertipe tabArray berisi m buah kata yang diinputkan oleh user }
+begin
+  write('banyak elemen = ');readln(m);
+  for i:=1 to m do begin
+    write('kata ',i,' : ');readln(tabel[i]);
+    end;
+end;
+procedure printArray(tabel:tabArray; m:integer);
+{IS. terdefinisi tabel bertipe tabArray yang berisi m buah kata
+ FS. menampilkan isi dari tabel ke layar dan juga menampilkan kata tersebut palindrom atau bukan}
+begin
+  for i:=1 to m do begin
+    write('kata ',tabel[i],' adalah ');checkPalindrom(tabel[i]);
+    end;
+end;
+begin
+  clrscr;
+  isiArray(dataNama,n);
+  printArray(dataNama,n);
+  readln;
+end.

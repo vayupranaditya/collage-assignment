@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="soal2_parkirborma.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="soal2_parkirborma"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="18"/>
+        <CursorPos X="30" Y="51"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="8" HistoryIndex="7">
+      <Position1>
+        <Filename Value="soal2_parkirborma.lpr"/>
+        <Caret Line="25" Column="39" TopLine="8"/>
+      </Position1>
+      <Position2>
+        <Filename Value="soal2_parkirborma.lpr"/>
+        <Caret Line="38" Column="34" TopLine="16"/>
+      </Position2>
+      <Position3>
+        <Filename Value="soal2_parkirborma.lpr"/>
+        <Caret Line="51" Column="3" TopLine="17"/>
+      </Position3>
+      <Position4>
+        <Filename Value="soal2_parkirborma.lpr"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position4>
+      <Position5>
+        <Filename Value="soal2_parkirborma.lpr"/>
+        <Caret Line="51" Column="27" TopLine="18"/>
+      </Position5>
+      <Position6>
+        <Filename Value="soal2_parkirborma.lpr"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position6>
+      <Position7>
+        <Filename Value="soal2_parkirborma.lpr"/>
+        <Caret Line="10" Column="16" TopLine="1"/>
+      </Position7>
+      <Position8>
+        <Filename Value="soal2_parkirborma.lpr"/>
+        <Caret Line="51" Column="9" TopLine="18"/>
+      </Position8>
+    </JumpHistory>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>

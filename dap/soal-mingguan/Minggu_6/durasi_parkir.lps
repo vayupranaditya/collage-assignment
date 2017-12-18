@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="durasi_parkir.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="durasi_parkir"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="10"/>
+        <CursorPos X="5" Y="46"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="12" HistoryIndex="11">
+      <Position1>
+        <Filename Value="durasi_parkir.lpr"/>
+        <Caret Line="11" Column="23" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="durasi_parkir.lpr"/>
+        <Caret Line="8" Column="32" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="durasi_parkir.lpr"/>
+        <Caret Line="38" Column="5" TopLine="2"/>
+      </Position3>
+      <Position4>
+        <Filename Value="durasi_parkir.lpr"/>
+        <Caret Line="31" Column="58" TopLine="2"/>
+      </Position4>
+      <Position5>
+        <Filename Value="durasi_parkir.lpr"/>
+        <Caret Line="3" Column="21" TopLine="1"/>
+      </Position5>
+      <Position6>
+        <Filename Value="durasi_parkir.lpr"/>
+        <Caret Line="38" Column="5" TopLine="2"/>
+      </Position6>
+      <Position7>
+        <Filename Value="durasi_parkir.lpr"/>
+        <Caret Line="8" Column="25" TopLine="2"/>
+      </Position7>
+      <Position8>
+        <Filename Value="durasi_parkir.lpr"/>
+        <Caret Line="38" Column="5" TopLine="2"/>
+      </Position8>
+      <Position9>
+        <Filename Value="durasi_parkir.lpr"/>
+        <Caret Line="32" Column="26" TopLine="2"/>
+      </Position9>
+      <Position10>
+        <Filename Value="durasi_parkir.lpr"/>
+        <Caret Line="31" Column="48" TopLine="4"/>
+      </Position10>
+      <Position11>
+        <Filename Value="durasi_parkir.lpr"/>
+        <Caret Line="47" Column="5" TopLine="11"/>
+      </Position11>
+      <Position12>
+        <Filename Value="durasi_parkir.lpr"/>
+        <Caret Line="43" Column="18" TopLine="18"/>
+      </Position12>
+    </JumpHistory>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>

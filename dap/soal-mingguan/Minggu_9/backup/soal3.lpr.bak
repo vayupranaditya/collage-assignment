@@ -1,0 +1,39 @@
+program soal3;
+uses crt;
+type
+  arr100=array[1..100] of integer;
+var
+  arr1,arr2,arr:arr100;
+  arr3:array[1..200] of integer;
+  n,i:integer;
+function inputArr(n:integer):arr100;
+{IS. terdefinisi integer n
+ FS. mengembailkan tabel berisi n buah integer}
+begin
+  for i:=1 to n-1 do begin
+    read(arr[i]);
+  end;
+  readln(arr[n]);
+  inputArr:=arr;
+end;
+begin
+  clrscr;
+  //input jumlah bilangan
+  repeat
+    write('masukkan n (min 10, max 100): ');readln(n);
+  until (n>=10) AND (n<=100);
+  //input array
+  arr1:=inputArr(n);
+  arr2:=inputArr(n);
+  //nukar
+  for i:=1 to n do begin
+    arr3[(2*i)-1]:=arr1[i];
+    arr3[(2*i)]:=arr2[i];
+    end;
+  //nampilin
+  for i:=1 to 2*n do begin
+    write(arr3[i],' | ');
+    end;
+  writeln;
+  readln;
+end.

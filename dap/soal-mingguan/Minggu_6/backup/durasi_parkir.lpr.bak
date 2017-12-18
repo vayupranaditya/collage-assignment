@@ -1,0 +1,54 @@
+program durasi_parkir;
+uses crt;
+type waktu  = record
+  jam,menit: integer;
+end;
+var
+  awal, akhir: waktu;
+  awal_menit,akhir_menit,durasi, jam, menit: integer;
+begin
+  clrscr;
+  writeln('Program Penghitung Durasi Parkir');
+  writeln('Format Jam  : 01-12');
+  writeln('Format Menit: 00-59');
+  writeln;
+  write('Jam Masuk    = ');readln(awal.jam);
+  write('Menit Masuk  = ');readln(awal.menit);
+  write('Jam Keluar   = ');readln(akhir.jam);
+  write('Menit Keluar = ');readln(akhir.menit);
+
+  if ((awal.jam >= 1) AND (awal.jam <= 12) AND
+      (akhir.jam >= 1) AND (akhir.jam <= 12) AND
+      (awal.menit >= 0) AND (awal.menit <=59) AND
+      (akhir.menit >= 0) AND (akhir.menit <=59)) then
+  begin
+    awal_menit:= awal.jam*60+awal.menit;
+    akhir_menit:= akhir.jam*60+akhir.menit;
+    if (awal_menit < akhir_menit) then
+    begin
+      durasi:=akhir_menit-awal_menit;
+    end
+    else
+    begin
+      durasi:=(12*60)+akhir_menit-awal_menit;
+    end;
+	if (durasi<= (12*60)) then
+	begin
+		jam:=durasi div 60;
+		menit:=durasi mod 60;
+		writeln;
+		writeln('durasi ',durasi,' menit = ',jam,' jam dan ',menit,' menit');
+	end
+	else
+	begin
+	//	writeln;
+	//	writeln('INPUT SALAH!');
+	end;
+  end
+  else
+  begin
+    writeln;
+    writeln('INPUT SALAH!');
+  end;
+  readln;
+end.
